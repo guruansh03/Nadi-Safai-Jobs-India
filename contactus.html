@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-80">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSJI</title>
+        <link rel="stylesheet" href="contactus.css">
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Nadi Safai Jobs India</h2>
+            <nav class="navigation">
+                <a href="homepage.html">Home</a>
+                <a href="#">About</a>
+                <a href="availables_jobs.html">Services</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div class="wrap">
+            <div class="form-loginbox">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <div class="inputbox">
+                        <span class="icon">
+                        </span>
+                        <input type="name" required>
+                        <label>Name:</label>
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon">
+                        </span>
+                        <input type="email" name="email" id="email" required>
+                        <label>Email:</label>
+                    </div>
+		            <div class="messagebox">
+                        <span class="icon">
+                        </span>
+                        <input type="message" required>
+                        <label>Message:</label>
+                    </div>
+                    <button type="submit" class="btn" onclick="myfunc()"><b>Submit</b></button>
+                </form>
+            </div>
+        </div>
+        <div class="enquiry">
+            <p>For inquiries and support, feel free to reach out to us:</p>
+                    <hr><br>
+            Address: 123 Main Street, ABC City, XYZ State<br>
+            Email: <a href="#">query@gmail.com</a><br>
+            Phone(WhatsApp): <a href="#">9999999999</a><br>
+            <a href="https://www.instagram.com/foods.hift/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="insta"></a>
+            <a href="https://www.facebook.com/profile.php?id=61553299775930"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-512.png" alt="fb"></a>
+            <a href="https://twitter.com/Foodshift0043"><img src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-contained-512.png" alt="twitter"></a></br>
+
+        </div>
+        <script>
+            function myfunc() {
+            var email = document.getElementById("email").value;
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailRegex.test(email)) {
+            alert("Submitted Successfully😊");
+            } else {
+            alert("Please enter a valid email address");
+            }
+            }
+        </script>
+    </body>
+</html>

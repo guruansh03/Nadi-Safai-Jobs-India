@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html
+ 
+lang="en">
+
+<head>
+
+  
+<meta
+ 
+charset="UTF-8">
+
+  
+<meta
+ 
+name="viewport"
+ 
+content="width=device-width, initial-scale=1.0">
+
+  
+<title>NSJI</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .hero {
+    height: 500px;
+    background-image: url(https://wallpapercave.com/wp/wp7988287.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .services {
+    padding: 20px 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .cta {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: Center;
+  }
+.navigation{
+    margin-left: auto; 
+    margin-right: 0;
+}
+.navigation a {
+    position:relative;
+    font-size: 1.1em;
+    color: olive;
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: right;
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scalex(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after {
+    transform-origin: center;
+    transform:scaleX(1);
+}
+.logo {
+    color: olive;
+    margin-right: 30px;
+    font-size: 2em;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: 25px;
+}
+header {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <h2 class="logo">Nadi Safai Jobs India</h2>
+    <nav class="navigation">
+        <a href="homepage.html">Home</a>
+        <a href="Aboutus.html">About</a>
+        <a href="availables_jobs.html">Services</a>
+        <a href="contactus.html">Contact Us</a>
+        <!--<button class="btnLogin-popup">Login</button>-->
+          
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h2>Clean Rivers, Clean Communities</h2>
+      <p>We are hiring experienced river cleaning professionals who are dedicated to keep our rivers clean and healthy. We offer a variety of services, including riverbank cleanup, debris removal, and water quality monitoring. We also offer educational programs and workshops to teach the public about the importance of river conservation.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="row">
+      <div class="col">
+        <h3>Riverbank Cleanup</h3>
+        <p>We remove debris and litter from riverbanks, helping to improve the appearance and health of the river.</p>
+      </div>
+      <div class="col">
+        <h3>Debris Removal</h3>
+        <p>We remove large objects from rivers, such as logs, tires, and other debris. This helps to prevent flooding and improve the safety of the river.</p>
+      </div>
+      <div class="col">
+        <h3>Water Quality Monitoring</h3>
+        <p>We test the water quality of rivers to identify and address any problems. This helps to ensure that the river is safe for people and wildlife.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Get Involved</h2>
+    <p>There are many ways to get involved in river cleaning. You can volunteer your time, donate to a river cleaning organization, or simply reduce your own impact on the environment.</p>
+    <a href="#" class="btn" style="width: 50px; margin: auto; padding: auto; text-align: center;">Get Started</a>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2023 River Cleaning Jobs</p>
+  </footer>
+
+</body>
+</html>
